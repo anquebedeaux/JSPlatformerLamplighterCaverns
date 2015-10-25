@@ -1,0 +1,76 @@
+body {
+	background-color: #272034;
+}
+.background { 
+	background-image: url("../assets/country-platform-night.png");
+	background-repeat: repeat-x;
+	background-color: #23367d;
+    border-spacing: 0;  
+}
+.background td { 
+	padding: 0;          
+}
+.enemy {
+	background-image: url("../assets/enemyWisp.png"); 
+}
+.door {
+	background-color: #ffffff;
+}
+.waterPad {
+	background-color: #3b304f; 
+}
+.lava {
+	background-color: #3b304f; 
+}
+.wall {
+	background-color: #272034;
+}
+.topwall {
+	background-image: url("../assets/platform1a.png");
+}
+.sideCornerA {
+	background-image: url("../assets/platformSideA.png");
+}
+.sideCornerB {
+	background-image: url("../assets/sideCornerB.png");
+}
+.sideBwall {
+	background-image: url("../assets/platformSideB.png");
+}
+.sideA1wall {
+	background-image: url("../assets/platformSideA1.png");
+}
+.sideA2wall {
+	background-image: url("../assets/platformSideA2.png");
+}
+.wallBottom {
+	background-image: url("../assets/platformBottom.png");
+}
+.water {
+	background-image: url("../assets/water.png");    
+}
+.crate {
+	background-image: url("../assets/crateImg.png");
+}
+.actor { 
+	position: absolute;  
+}
+.coin { 
+	background-image: url("../assets/candles_with_eyes.png");
+}
+.player { 
+	background-image: url("../assets/character.png"); 
+}
+.game {
+  overflow: hidden;
+  max-width: 600px;
+  max-height: 450px;
+  position: relative;
+}
+.lost .player {
+  background-image: url("../assets/characterLost.png");
+}
+.won .player {
+  background-image: url("../assets/characterWon.png");
+  box-shadow: -4px -7px 8px white, 4px -7px 8px white;
+}
